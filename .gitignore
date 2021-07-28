@@ -1,0 +1,36 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+
+hrm-server/node_modules
+hrm-frontend/node_modules
+hrm-frontend/.pnp
+hrm-frontend/.pnp.js
+
+# testing
+hrm-frontend/coverage
+
+# next.js
+hrm-frontend/.next/
+hrm-frontend/out/
+
+# production
+hrm-frontend/build
+
+# misc
+hrm-frontend/.DS_Store
+hrm-frontend/*.pem
+
+# debug
+hrm-frontend/npm-debug.log*
+hrm-frontend/yarn-debug.log*
+hrm-frontend/yarn-error.log*
+
+# local env files
+hrm-frontend/.env.local
+hrm-frontend/.env.development.local
+hrm-frontend/.env.test.local
+hrm-frontend/.env.production.local
+
+# vercel
+hrm-frontend/.vercel

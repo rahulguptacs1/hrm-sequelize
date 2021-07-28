@@ -1,0 +1,4 @@
+// hosted psql
+postgres://rgpuptri:T0_dhOXfqkR5z2_MFNarLM3aI4ina-QR@batyr.db.elephantsql.com/rgpuptri
+// local psql
+postgres://postgres:postgres@localhost:5432/hrm
